@@ -1,5 +1,6 @@
 from flask import Flask
 
+# add mysql dependency and make a flask-mysql template project
 app = Flask(__name__)
 
 @app.route("/")
